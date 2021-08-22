@@ -1,8 +1,8 @@
 .headerbtn 
 {
-    background-color: #000000;
-    padding: 7px;
-    height: 30px;
+    background-color: rgb(20, 19, 19);
+    padding: 0px;
+    height: 40px;
     width: 80px;
     text-align: center;
     opacity: 0.4;
@@ -13,6 +13,17 @@
     overflow: hidden;
     display: block;
     /*cursor: pointer;*/
+}
+
+.gotopbtn
+{
+    position: fixed;
+    width: 8px;
+    height: 6px;
+    bottom: 20px;
+    right: 30px;
+    color: #90451c;
+    text-align: center;
 }
 
 .li
@@ -26,6 +37,7 @@
     list-style-type: none;
     text-decoration: none;
     color:aliceblue;
+    cursor: default;
 }
 
 .headerbtn:hover:not(.active)
@@ -40,14 +52,20 @@
 
 .active
 {
-    background-color: #ceb67a;
+    background-color: #90451c;
     opacity: 1;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
 }
 
 a
 {
     display: block;
-    padding: 8px;
+    padding: 12px;
 }
 
 ul 
@@ -64,11 +82,13 @@ ul
 li
 {
     border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
 }
   
 li:last-child
 {
     border-right: none;
+    border-left: 1px solid #bbb;
 }
 
 h1
@@ -105,19 +125,19 @@ h1
     width: 10px;
 }
   
-  ::-webkit-scrollbar-track
+::-webkit-scrollbar-track
 {
     background: #f1f1f1;
 }
   
-  ::-webkit-scrollbar-thumb
+::-webkit-scrollbar-thumb
 {
-    background: #888;
+    background: #a15b35;
 }
   
-  ::-webkit-scrollbar-thumb:hover
+::-webkit-scrollbar-thumb:hover
 {
-    background: #555;
+    background: #90451c;
 }
 
 .fa
@@ -134,10 +154,18 @@ h1
     opacity: 0.7;
 }
 
-  .fa-facebook
+.fa-facebook
 {
     background: #3B5998;
     color: white;
+}
+
+.fa-chevron-up
+{
+    width: 8px;
+    height: 6px;
+    cursor: default;
+    text-align: center;
 }
 
 .centerimg
