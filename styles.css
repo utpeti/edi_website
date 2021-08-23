@@ -20,9 +20,9 @@
     position: fixed;
     width: 8px;
     height: 6px;
-    bottom: 64px;
+    bottom: 9%;
     right: 20px;
-    color: #90451c;
+    color: #FFDF07;
     text-align: center;
 }
 
@@ -117,12 +117,12 @@ h1
   
 ::-webkit-scrollbar-thumb
 {
-    background: #a15b35;
+    background: #FFDF07;
 }
   
 ::-webkit-scrollbar-thumb:hover
 {
-    background: #90451c;
+    background: #dfc72f;
 }
 
 /*----------scrollbar----------*/
@@ -220,7 +220,8 @@ h1
 
 #navbar .logo
 {
-    background-color: #90451c;
+    background-color: #3b3a3a;
+    color: #FFDF07;
     opacity: 1;
     font-weight: 1000;
     padding: 0.6%;
@@ -229,7 +230,7 @@ h1
 
 #navbar .logo:hover
 {
-    background-color: #90451c;
+    background-color: #3b3a3a;
 }
 
 #navbar .btncontact
@@ -239,7 +240,8 @@ h1
 
 #navbar .active
 {
-    background-color:#188120;
+    background-color:#FFDF07;
+    color: #000000;
     opacity: 1;
 }
 
@@ -256,7 +258,7 @@ h1
 {
     float: left;
     display: block;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: 106%;
     font-family: Arial, Helvetica, sans-serif;
@@ -288,7 +290,7 @@ h1
 
 #navbar a:hover
 {
-    background-color: #319128;
+    background-color: #dfc72f;
     cursor: default;
     opacity: 1;
 }
@@ -326,3 +328,32 @@ main
     color: aliceblue;
     font-family: fantasy;
 }
+
+.logowr
+{
+    background-image: url("woodroom.jpg");
+    width: 70%;
+    height: 70%;
+    image-resolution: 100%;
+    text-align: center;
+}
+
+.scrollsmooth
+{
+    scroll-behavior: smooth;
+}
+
+/*----------loading----------*/
+
+.homeimg
+{
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+
+.gifabout
+{
+    margin-top: 20%;
+}
+
+/*----------loeading----------*/
