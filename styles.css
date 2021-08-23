@@ -52,6 +52,7 @@ body
     position: relative;
     padding-bottom: 58px;
     min-height: 100vh;
+    background-color: #000000;
 }
 
 li:last-child
@@ -77,33 +78,29 @@ h1
     justify-content: center;
 }
 
-.contactlinks
+.followus
 {
-    position: absolute;
+    text-align: center;
+    margin-top: 150px;
+    font-size: large;
     color: aliceblue;
-    top: 90px;
-    left: 60px;
+    font-family: fantasy;
 }
 
 .contactlinks.link1
 {
     position: absolute;
     color: aliceblue;
-    top: 90px;
-    left: 60px;
+    margin-top: 5px;
+    left: 885px;
 }
 
 .contactlinks.link2
 {
     position: absolute;
     color: aliceblue;
-    top: 90px;
-    left: 160px;
-}
-
-.bckgr
-{
-    background-color: #000000;
+    margin-top: 5px;
+    left: 965px;
 }
 
 /*----------scrollbar----------*/
@@ -194,12 +191,44 @@ h1
 
 /*----------navbar----------*/
 
+#navbar .facebook
+{
+    background-color: #3B5998;
+    opacity: 1;
+}
+
+#navbar .facebook:hover
+{
+    background-color: #203768;
+    cursor: default;
+    opacity: 1;
+}
+
+#navbar .instagram
+{
+    background-color: #cf0c0c;
+    opacity: 1;
+    padding: 14.2px;
+}
+
+#navbar .instagram:hover
+{
+    background-color: #9c1a1a;
+    cursor: default;
+    opacity: 1;
+}
+
 #navbar .logo
 {
     background-color: #90451c;
     opacity: 1;
     font-weight: 1000;
     padding: 12px;
+}
+
+#navbar .logo:hover
+{
+    background-color: #90451c;
 }
 
 #navbar .btncontact
@@ -209,7 +238,7 @@ h1
 
 #navbar .active
 {
-    background-color: #90451c;
+    background-color:#188120;
     opacity: 1;
 }
 
@@ -240,7 +269,7 @@ h1
 
 #navbar a:hover
 {
-    background-color:#90451c;
+    background-color: #319128;
     cursor: default;
     opacity: 1;
 }
@@ -263,4 +292,13 @@ main
     width: 90vw;
     margin: 0 auto;
     padding: 30px 20px;
+}
+
+.comingsoon
+{
+    text-align: center;
+    margin-top: 400px;
+    font-size: large;
+    color: aliceblue;
+    font-family: fantasy;
 }
