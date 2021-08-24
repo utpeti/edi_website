@@ -20,8 +20,8 @@
     position: fixed;
     width: 8px;
     height: 6px;
-    bottom: 9%;
-    right: 20px;
+    bottom: 11%;
+    right: 2%;
     color: #FFDF07;
     text-align: center;
 }
@@ -226,6 +226,7 @@ h1
     font-weight: 1000;
     padding: 0.6%;
     font-size: 105%;
+    float: left;
 }
 
 #navbar .logo:hover
@@ -233,10 +234,6 @@ h1
     background-color: #3b3a3a;
 }
 
-#navbar .btncontact
-{
-    float: right;
-}
 
 #navbar .active
 {
@@ -269,6 +266,7 @@ h1
     opacity: 0.5;
     cursor: default;
     width: 10%;
+    float: right;
 }
 
 @media screen and (max-Width: 899px)
@@ -293,6 +291,45 @@ h1
     background-color: #dfc72f;
     cursor: default;
     opacity: 1;
+}
+
+#navbar .dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+  
+#navbar .dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color: #3b3a3a;
+    min-width: 100%;
+    width: 10%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 8% 10%;
+    z-index: 1;
+    text-decoration: none;
+    border-right: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    cursor: default;
+    right: 0%;
+    text-align: left;
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+#navbar .dropdown:hover .dropdown-content
+{
+    display: block;
+}
+
+#navbar .dropdown-content a
+{
+    color: black;
+    padding: 0.7%;
+    text-decoration: none;
+    display: block;
 }
 
 /*----------navbar----------*/
